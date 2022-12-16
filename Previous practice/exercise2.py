@@ -1,0 +1,5 @@
+# a = input('Enter first number: ')
+# b = input('Enter second number: ')
+# c = input('Enter third number: ')
+a , b , c = (input('Enter three numbers: ')).split(',')
+print(f'{(int(a) + int(b) + int(c))/3}')
