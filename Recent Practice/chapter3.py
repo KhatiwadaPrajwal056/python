@@ -9,13 +9,14 @@
 # print(a+b)
 # a[3]="t"   will not work, doesnot support iteam assignment but can be accessed
 '''
-# str Slicing
-a= "prajwal"
-# print(a[0:3]) # works same like in for loop i<4
-# print(a[-1]) # last character of the string
+# str Slicing::: 
+    a= "prajwal"
+    # print(a[0:3]) # start:stop ..works same like in for loop i<3
+    # print(a[-1]) #  lstart:stop:step....last character of the string
+    print(a[::-1]) # reverses the string with step 1 from back
 
-# Slicing with skip 
-print(a[0::2]) # skips one char each
+    # Slicing with skip 
+    print(a[0::2]) # skips one char each
 
 # string functions
 # 1. len(var_name)
@@ -46,8 +47,8 @@ print(letter) '''
 name= "prajwal  khatiwada  is"
 # print(name.count("  "))
 # name=name.replace("  "," ")
-print(name.title())
-print(name.capitalize())
+print(name.title())   #writes as a title capitalizing every word
+print(name.capitalize()) 
 print(name)
 
 
