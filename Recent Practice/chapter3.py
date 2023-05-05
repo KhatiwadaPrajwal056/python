@@ -52,9 +52,12 @@ print(name.title())   #writes as a title capitalizing every word
 print(name.capitalize()) 
 print(name)
 '''
-age= int(input("Enter your age:"))
-age=2023-age 
-print(f' My age is {age}')
+
+name=input("ENter you name:")
+passs = input("Enter you password:")
+
+print("Hey "+ name +" your " + "*" * (len(passs)) + " is " + str(len(passs))+ " long")  #OR
+print(f'HEY {name} your {"*"* (len(passs))} is {len(passs)} long')
 
 
 
