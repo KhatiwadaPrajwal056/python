@@ -17,6 +17,7 @@
 
     # Slicing with skip 
     print(a[0::2]) # skips one char each
+ STRINGs are immmutable
 
 # string functions
 # 1. len(var_name)
@@ -26,7 +27,7 @@
 # 5.  .find("word") , says where does it lies, ie 1st 
 occurance
 #6.    .lower or  .upper         : same concept as replace
-# 7.   .replace("previous","new word") , replaces all the similar words  : This doesnt changes the original string just gives us  new replaced string i.e immutable
+# 7.   .replace("previous","new word") , replaces all the similar words  : This doesnt changes the original string just gives us  new replaced string i.e IMMUTABLE 
 #     .title()      # caps the 1st 
 character of every word
 #   .center(5,"*") # to add something is 0th and -1th position of the string
@@ -42,7 +43,7 @@ name= input("enter you name")
 date= input("enter you date")
 letter= letter.replace("<NAME>",name)
 letter=letter.replace("<DATE>",date)
-print(letter) '''
+print(letter) 
 
 name= "prajwal  khatiwada  is"
 # print(name.count("  "))
@@ -50,8 +51,10 @@ name= "prajwal  khatiwada  is"
 print(name.title())   #writes as a title capitalizing every word
 print(name.capitalize()) 
 print(name)
-
-
+'''
+age= int(input("Enter your age:"))
+age=2023-age 
+print(f' My age is {age}')
 
 
 
