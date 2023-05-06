@@ -6,6 +6,8 @@ x,y,z=a #unpacking
 print(a)
 print(a[0:2]) prints 1,5
 # slicing of list can also be done same like string slicing
+THEY ARE MUTABLE:
+IMPORTANT:: 
 
 #list functions/methods
 a.sort() #sorts the list
