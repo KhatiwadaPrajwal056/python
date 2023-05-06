@@ -1,5 +1,6 @@
 # Dictionary and sets
-# Dictionary is a collection of key-value pairs
+# Dictionary is a collection of unordered key-value pairs
+# keywords cant be expressions
 # dict= {
 #     "int": "1,2,3",
 #     "name":"pk,sagar",
@@ -17,28 +18,39 @@ dict= {
 # print(dict["hero"]) #nested
 # print(dict["int"])
 
-#properties
+#properties::
 It is unordered
-It is mutable, can be changed
+A dictionary key always has to be mimutable
 It it indexed
-cannot contain duplicate keys, it overrides
+cannot contain duplicate keys, it overrides i.e need to be unique keys
 
 
 # Dictionary methods
 print("\n")
+
 print(dict.values()) #prints the keys
 print(dict.items()) #prints (key,value)
 print(dict.keys()) . #prints keys
+dict.clear() #clears everything in thr dictionary
 
-updateee ={
-    "ok":"3434"
+dictor ={
+    "ok":"3434" ,
+    'hi':[3,4,5]
+    'ok':"nai nababhhnu la'
 }
+print(dictor.get('nithin'))  ; prints NONE i.e this avoids error 
+OR we can do
+print(dictor.get('nothin',20)) ; if it cant find given keyvalur then print 20 i.e default value
 dict.update(updateee)   # updates by adding key-value pairs in the dict
 dict.update({"oho":"7878"})
 print(dict)
 print(dict.get("ok"))
 print(dict.get("ok2"))  #Returns NONE as ok2 is not present
-print(dict["ok2"])  # thorws key error  
+print(dict["ok2"])  # thorws key error 
+.pop()
+.popitem()
+.update()
+.copy()
 
 
 #Sets In python
