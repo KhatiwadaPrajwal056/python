@@ -173,5 +173,19 @@ for i in picture:
             print('*',end='')
     print() '''
     
+mylist=['a','b','c','f','a','b']
+dupli=[]
+for i in mylist:
+    index=mylist.index(i)
+    if i in mylist[index+1:]:
+        if i in dupli:
+            pass
+        else:
+            dupli.append(i)   
+print(dupli)
+        
+    
 
+
+    
 
