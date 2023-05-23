@@ -61,13 +61,40 @@ def rem(a,nm):
 l ="    he is a bad boy     "
 name=input("Enter a word to remove: ")
 rem(l,name)
-'''
 
 
 
 
+# *args and **kwargs     :Argument and keyword argument
 
+def hero(*args,**kwargs):
+    total=0
+    for items in kwargs.values():
+        total+=items
+    return sum(args) +total
+print(hero(1,2,3,4,5,hello=1,hi=2))
 
+def highest_even(li):
+    even =0
+    for items in li:
+        if items%2==0 & even <items:
+                even=items
+    return even
+        
+print("Highest even number in the list is",highest_even([10,20,33,44])) 
+
+#global keyword 
+
+sum =5
+def haha():
+    global sum
+    sum+=1
+    
+    return sum
+
+print(haha())
+
+ '''
 
 
 
