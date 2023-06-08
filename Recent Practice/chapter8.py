@@ -97,7 +97,12 @@ print(haha())
  '''
 
 
-
+def hero(*args,**kwargs):
+    total=0
+    for items in kwargs.values():
+        total+=items
+    return sum(args) +total
+print(hero(1,2,3,4,5,hello=1,hi=2))
 
 
 
