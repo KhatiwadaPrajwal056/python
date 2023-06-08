@@ -21,7 +21,7 @@ dict= {
 #properties::
 It is unordered
 A dictionary key always has to be mimutable
-It it indexed
+It is indexed
 cannot contain duplicate keys, it overrides i.e need to be unique keys
 
 
