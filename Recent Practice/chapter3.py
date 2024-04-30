@@ -57,6 +57,7 @@ name=input("ENter you name:")
 passs = input("Enter you password:")
 
 print("Hey "+ name +" your " + "*" * (len(passs)) + " is " + str(len(passs))+ " long")  #OR
+
 print(f'HEY {name} your {"*"* (len(passs))} is {len(passs)} long') 
 
 

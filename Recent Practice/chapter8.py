@@ -102,6 +102,8 @@ def hero(*args,**kwargs):
     for items in kwargs.values():
         total+=items
     return sum(args) +total
+    
+
 print(hero(1,2,3,4,5,hello=1,hi=2))
 
 

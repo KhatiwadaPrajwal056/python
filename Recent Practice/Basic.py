@@ -12,6 +12,7 @@ print('namaste "pk" pkk') or print("nepal 'nepali' pkk")
 print('prajwal \'khatiawda\' pk')
 print('Line \\n A') or print(r'line \n A')
 
+
 more Escape Sequences
 \' = (')single quote
 \" = (")double quote
@@ -19,6 +20,7 @@ more Escape Sequences
 \n= newline
 \t = tab 
 \b = backspace '  
+
 
 # Emoji
 print('\U0001F607') 
@@ -45,7 +47,7 @@ return_code = subprocess.call(["afplay", audio_file])
 import math
 from math import sqrt
 from math import *     #every function will be included
-
+'''
 
 num1=1_00_00_00
 num2=1_00_00_00
@@ -54,7 +56,7 @@ print(f'{ans:,}')
 
 for i in range(4):
         print(i)
-
+'''
 
 
 # for the multiple integers inputs it can be difficult to take and understand
@@ -85,9 +87,11 @@ range(5)
 #exception
 
 try: it tries the code as in c++
-except: its like a throw and catch but i catches a particular error generated in try block of code, for eg if try block gets valueerror  then except for valueerror is needed . also there can be multiple error on same try and need to make each except for each error '''
+except: its like a throw and catch but i catches a particular error generated in try block of code, for eg if try block gets valueerror  then except for valueerror is needed . also there can be multiple error on same try and need to make each except for each error 
 try:
         num=int(input("enter a num"))
         print(num)
 except ValueError:
         print("You entered different value ")
+
+'''

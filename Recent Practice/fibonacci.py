@@ -1,5 +1,5 @@
 # fibonacci series
-
+'''
 num = int(input("Enter a num for the series: "))
 a=0
 b=1
@@ -11,3 +11,8 @@ for i in range(num):
     b=nextterm
     nextterm=a+b
     
+'''
+
+# write a code to find the greatest number in an array: using function 
+
+
