@@ -21,7 +21,11 @@ def greatnum(arr):
             greatest=num
     return greatest
 
-
+#  Taking input either::
+# arr=[]
+# for i in range(5):
+#     arr.append(int(input("ENTER THE ELEMENT OF AN ARRAY: ")))
+# OR
 arr=list(map(int,input("ENter the elements of array: ").split()))
 print("THE GREATEST NUMBER IN AN ARRAY IS",greatnum(arr))
 
