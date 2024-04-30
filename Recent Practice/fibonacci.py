@@ -9,10 +9,20 @@ for i in range(num):
     print("",nextterm,end=" ")
     a=b
     b=nextterm
-    nextterm=a+b
-    
+    nextterm=a+b 
 '''
 
 # write a code to find the greatest number in an array: using function 
+
+def greatnum(arr):
+    greatest=arr[0]
+    for num in arr:
+        if greatest<num:
+            greatest=num
+    return greatest
+
+
+arr=list(map(int,input("ENter the elements of array: ").split()))
+print("THE GREATEST NUMBER IN AN ARRAY IS",greatnum(arr))
 
 
